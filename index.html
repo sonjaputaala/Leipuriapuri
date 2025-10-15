@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leipuriapuri</title>
+  <link rel="stylesheet" href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Hae reseptejä</a>
+      <div>
+        <a class="nav-link" href="suosikit.html">Suosikit</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container text-center my-5">
+    <h1>Etsi leivontareseptejä</h1>
+    <input id="searchInput" type="text" placeholder="Esim. cake, bread..." class="form-control my-3">
+    <button id="searchBtn" class="btn btn-primary">Hae</button>
+    <div id="results" class="row mt-4"></div>
+  </div>
+
+  <script src="js\main.js"></script>
+
+ 
+<div class="modal fade" id="recipeModal" tabindex="-1" aria-labelledby="recipeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="recipeModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Sulje"></button>
+      </div>
+      <div class="modal-body">
+        <img id="recipeImg" src="" alt="" class="img-fluid rounded mb-3">
+        <h6>Ainesosat:</h6>
+        <ul id="recipeIngredients" class="list-unstyled"></ul>
+        <h6>Ohjeet:</h6>
+        <p id="recipeInstructions"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

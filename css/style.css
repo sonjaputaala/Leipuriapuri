@@ -1,0 +1,116 @@
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background-color: #fffaf7;
+  color: #4a2c2a;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #ffe8e0 !important;
+  border-bottom: 2px solid #f3c6b2;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #b85c38 !important;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #b85c38 !important;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h5 {
+  color: #b85c38;
+}
+
+h1, .navbar-brand {
+  font-family: "Dancing Script", cursive;
+}
+
+input[type="text"] {
+  border: 2px solid #f3c6b2;
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #b85c38;
+  border-color: #b85c38;
+  border-radius: 12px;
+  padding: 8px 20px;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #a44f31;
+  border-color: #a44f31;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card-body {
+  background-color: #fff7f3;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.card-body .btn {
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.modal-body {
+  display: none;  
+  max-height: 70vh;   
+  overflow-y: auto; 
+  white-space: pre-wrap; }
+
+#favorites {
+  min-height: 60vh;
+}
+
+#results p, #favorites p {
+  font-style: italic;
+  color: #777;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  input[type="text"] {
+    width: 90%;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+}
