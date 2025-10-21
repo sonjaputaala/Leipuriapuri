@@ -4,7 +4,7 @@
 
 **Käyttöohjeet:**
 1. Avaa index.html.
-2. Kirjoita hakukenttään englanniksi toivomasi resepti (esim. *cake* tai *bread*).
+2. Kirjoita hakukenttään englanniksi toivomasi resepti (esim. *cake* tai *pie*).
 3. Klikkaa "Hae".
 4. Voit tallentaa reseptejä suosikkeihin ❤️-painikkeella.
 5. Tarkastele suosikkeja "Suosikit"-sivulla.
