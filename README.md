@@ -18,6 +18,6 @@
 
 **Lähteet / hyödynnetyt tutoriaalit:**
 - Webohjelmoinnin viikkotehtävä 8
-- 
+- Getbootstrap.com-sivuston modaalitutoriaali: https://getbootstrap.com/docs/5.0/components/modal/ 
 
 Tekijä: *Sonja Putaala.*

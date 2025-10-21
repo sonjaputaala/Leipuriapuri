@@ -6,6 +6,7 @@
   <title>Leipuriapuri</title>
   <link rel="stylesheet" href="css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
@@ -27,7 +28,7 @@
   <script src="js\main.js"></script>
 
  
-<div class="modal fade" id="recipeModal" tabindex="-1" aria-labelledby="recipeModalLabel" aria-hidden="true">
+<div class="modal fade" id="recipeModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -36,9 +37,9 @@
       </div>
       <div class="modal-body">
         <img id="recipeImg" src="" alt="" class="img-fluid rounded mb-3">
-        <h6>Ainesosat:</h6>
-        <ul id="recipeIngredients" class="list-unstyled"></ul>
-        <h6>Ohjeet:</h6>
+        <h6>Ainesosat</h6>
+        <ul id="recipeIngredients"></ul>
+        <h6>Ohjeet</h6>
         <p id="recipeInstructions"></p>
       </div>
       <div class="modal-footer">
@@ -47,6 +48,8 @@
     </div>
   </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
