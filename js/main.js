@@ -12,7 +12,7 @@ searchBtn.addEventListener('click', async () => {
   resultsDiv.innerHTML = '';
 
   if (!data.meals) {
-    resultsDiv.innerHTML = '<p>Ei löytynyt reseptejä.</p>';
+    resultsDiv.innerHTML = '<p>Reseptejä ei löytynyt.</p>';
     return;
   }
 
@@ -25,8 +25,8 @@ searchBtn.addEventListener('click', async () => {
      <div class="card-body">
        <h5 class="card-title">${meal.strMeal}</h5>
        <p>
-        <button class="btn btn-outline-primary" onclick="showRecipe('${meal.idMeal}')">Näytä</button>
-        <button class="btn btn-outline-danger" onclick="saveFavorite('${meal.idMeal}')">❤️</button>
+        <button class="btn-primary" onclick="showRecipe('${meal.idMeal}')">Näytä</button>
+        <button class="btn-primary" onclick="saveFavorite('${meal.idMeal}')">❤️</button>
       </p>
     </div>
   </div>
@@ -45,7 +45,7 @@ async function showRecipe(id) {
   }
 
   const meal = data.meals[0];
-  console.log(meal); // debug
+  console.log(meal); 
 
   document.getElementById('recipeModalLabel').textContent = meal.strMeal;
   document.getElementById('recipeImg').src = meal.strMealThumb;

@@ -7,28 +7,28 @@ body {
 }
 
 .navbar {
-  background-color: #ffe8e0 !important;
-  border-bottom: 2px solid #f3c6b2;
+  background-color: #c5866e !important;
+  border-bottom: 2px solid #c5866e;
 }
 
 .navbar-brand {
-  font-weight: 600;
-  color: #b85c38 !important;
+  color: #c5866e !important;
   font-size: 1.5rem;
 }
 
 .nav-link {
-  color: #b85c38 !important;
-  font-weight: 500;
+  color: #c5866e !important;
   margin-left: 1rem;
+  font-style: bold;
 }
 
 .nav-link:hover {
   text-decoration: underline;
+  font-style: italic;
 }
 
 h1, h2, h3, h5 {
-  color: #b85c38;
+  color: #c5866e;
 }
 
 h1, .navbar-brand {
@@ -42,10 +42,17 @@ input[type="text"] {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
+
+}
+input[type="text"]:focus,
+input[type="text"]:focus-visible {
+  outline: none;                    
+  border-color: #9e7b78a9;               
+  box-shadow: 0 0 0 3px rgba(78, 54, 53, 0.08); 
 }
 
 .btn-primary {
-  background-color: #b85c38;
+  background-color: #c5866e;
   border-color: #b85c38;
   border-radius: 12px;
   padding: 8px 20px;
@@ -54,7 +61,8 @@ input[type="text"] {
 
 .btn-primary:hover {
   background-color: #a44f31;
-  border-color: #a44f31;
+  color: white;
+  border-color: #683a29;
 }
 
 .card {
