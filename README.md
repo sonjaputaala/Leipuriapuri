@@ -8,7 +8,7 @@
 3. Klikkaa "Hae".
 4. Voit tallentaa reseptejä suosikkeihin '❤️'-painikkeella.
 5. Painamalla 'Näytä'-painiketta näet reseptin ainesosat sekä ohjeet.
-6. Voit tarkastella tallennettuja suosikkeja "Suosikit"-sivulla.
+6. Voit tarkastella sekä poistaa tallennettuja suosikkeja "Suosikit"-sivulla.
 
 **Hyödynnetyt teknologiat:**
 - HTML5
@@ -21,6 +21,8 @@
 **Lähteet / hyödynnetyt tutoriaalit:**
 - Webohjelmoinnin viikkotehtävä 8
 - Getbootstrap.com: modal (https://getbootstrap.com/docs/5.0/components/modal/) 
+- Getbootstrap.com: grid system (https://getbootstrap.com/docs/4.0/layout/grid/)
+- W3 Schools: Window localStorage (https://www.w3schools.com/jsref/prop_win_localstorage.asp)
 - W3 Schools: console log (https://www.w3schools.com/jsref/met_console_log.asp)
 
 

@@ -8,19 +8,21 @@ body {
 
 .navbar {
   background-color: #c5866e !important;
-  border-bottom: 2px solid #c5866e;
+  border-bottom: 3px solid #c5866e;
+  height: 70px;
 }
 
-.navbar-brand {
+.navbar .nav-link {
   color: #c5866e !important;
-  font-size: 1.5rem;
-}
-
-.nav-link {
-  color: #c5866e !important;
+  font-family: 'Caveat Brush', bold;
   margin-left: 1rem;
-  font-style: bold;
+  display:flex;
+  align-items:center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing:1px;
 }
+
 
 .nav-link:hover {
   text-decoration: underline;
@@ -29,10 +31,12 @@ body {
 
 h1, h2, h3, h5 {
   color: #c5866e;
+
 }
 
-h1, .navbar-brand {
-  font-family: "Dancing Script", cursive;
+h1 {
+  font-family: "Dancing Script";
+  font-size: 2rem;
 }
 
 input[type="text"] {
@@ -40,7 +44,7 @@ input[type="text"] {
   border-radius: 12px;
   padding: 10px;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0px auto;
   text-align: center;
 
 }
