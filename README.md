@@ -15,7 +15,7 @@
 - CSS3 
 - JavaScript
 - TheMealDB API (https://www.themealdb.com/api.php)
-- Bootstrap - modali
+- Bootstrap
 - Sovellus käyttää localStoragea suosikkien tallennukseen.
 
 **Lähteet / hyödynnetyt tutoriaalit:**
